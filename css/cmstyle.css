@@ -1,0 +1,91 @@
+body{margin:0; padding:0; }
+#map {position:absolute; top:50px; bottom:0; width:100%; left:0px;}
+#titleDiv{ background: #f7f7f7; text-align: center; color: #a11e23; z-index: 999999; position: relative;}
+.imm-head{width : 170px;}
+.imm-college{width : 50px;}
+.imm-sports{width : 16px;}
+
+.alignleft {
+	float: left;
+}
+.aligncenter {
+	float: center;
+}
+#College-list {
+	position:absolute;
+	top:0; left:0; width:200px;
+	bottom:0;
+	overflow-x:auto;
+	background:#f7f7f7;
+	margin:0;
+	font-family: "Avenir Next", "Avenir", sans-serif;
+	color: #a11e23;
+	padding:5px;
+}
+
+#Student-list {
+	position:relative;
+	top:0; left:0; width:200px; height:100%;
+	float:right;
+	bottom:0;
+	overflow-x:auto;
+	background:#f7f7f7;
+	margin:0;
+	font-family: "Avenir Next", "Avenir", sans-serif;
+	color: #a11e23;
+	padding:5px;
+}
+#fdiv {
+	font-family: "Oswald", sans-serif;
+}
+#fdiv2 {
+	font-family: "Oswald", sans-serif;
+}
+
+#restaurantTitle {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+
+h3 {
+	text-align:center;
+}
+#search{
+   width: 100px;
+   /*height: 20px;*/
+   margin: auto;
+   position: relative;
+   /*left: 40px;*/
+ }
+#searchB{
+   width: 100px;
+   /*height: 20px;*/
+   margin: auto;
+   position: relative;
+   /*left: 40px;*/
+ }
+ 
+ 
+
+
+
+
+[divid]{
+	text-align:center;
+	padding:5px;
+	margin:0;
+	color: #109923;
+	display:block;
+	position: relative;
+
+}
+[divid]:hover {
+color:#a11e23;
+background:#e7efff;
+  }
+
+.LIcon{
+	border-radius: 20px;
+	border : 1px solid black;
+	background : white;
+}

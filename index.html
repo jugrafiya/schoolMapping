@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Indian Hill Exempted Village School District</title>
+        <!-- For Mobile device scaling optimization -->
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <!-- Inputs Mapbox [map render software] JS and CSS -->
+        <!--<script src='js/mapbox.js'></script>-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+        
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+		<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+        <!--<link href='js/mapbox.css' rel='stylesheet' />-->
+        <!-- Imports the separate css file and Campy icon -->
+        <link href="css/cmstyle.css" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-96x96.html">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora:700,700i" rel="stylesheet">
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min_.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        
+        <link href="css/sidebar.css" rel="stylesheet">
+        <link href="css/sidebarright.css" rel="stylesheet">
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/jquery.js"></script>
+        <script src="css/bootstrap.min_.js"></script>
+
+
+        <!-- Easy Button -->
+        <script src="css/easy-button.js"></script>
+        <link href="css/easy-button.css" rel="stylesheet">
+
+        <!-- Awesome Fonts -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- ???Implement NavBar-->
+        <div id="titleDiv">
+			<div class="alignleft"><img class="imm-head" src="img/yourSchoolLogo.png"></div>
+			<img class="aligncenter" style="width:50px" src="img/IH-Logo-Red-Fill-Black-Border.png">&nbsp;&nbsp;&nbsp;&nbsp;<b>School School School</b>
+			
+        </div>
+		
+
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-brand" id="Student-list">
+                    <div>
+                        <h3 id ='fdiv2'>Year</h3>
+                        <form id="searching" onsubmit="return find();">
+                            <input id="search" type="text" />
+                            <input type="submit" value='Search'>
+                        </form>		
+                    </div>	
+                </ul>
+            </div>
+        </div>
+
+        <div id='map'></div>
+        <div id="wrapper2">
+            <div id ="sidebarright-wrapper2">
+                <ul class="sidebarright-brand" id="College-list">
+                    <h3 id='fdiv'>College List</h3>
+                    <form id="searching" onsubmit="return find2();">
+                        <input id="searchB" type="text" />
+                        <input type="submit" value='Search'>
+                    </form>	
+                </ul>
+            </div>
+        </div>
+		
+        
+        <script src='js/app/main.js'></script>
+
+		
+    </body>
+
+</html>
+
